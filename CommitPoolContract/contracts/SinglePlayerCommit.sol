@@ -71,8 +71,6 @@ contract SinglePlayerCommit is ChainlinkClient, Ownable {
         address oracle, 
         bool allowed,
         bool exists);
-    //TODO Error events
-
 
     /******************
     INTERNAL ACCOUNTING
